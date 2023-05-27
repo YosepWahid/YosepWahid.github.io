@@ -1,0 +1,99 @@
+body {
+  font-family: "Playfair", serif;
+  background-color: var(--body-bg);
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--bs-success);
+}
+
+.bg-image {
+  background-image: url("https://source.unsplash.com/kKvQJ6rK6S4/660x1000");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+[data-bs-theme="dark"] .nav-pills .nav-link.active {
+  background-color: var(--bs-warning);
+  color: black;
+}
+
+main {
+  font-family: "Open Sans", sans-serif;
+}
+
+#btn-mode {
+  cursor: pointer;
+}
+
+.nav-pills {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link:hover {
+  color: var(--bs-danger);
+}
+
+.nav-link {
+  color: var(--bs-success);
+}
+
+[data-bs-theme="dark"] .nav-link {
+  color: var(--bs-warning);
+}
+
+[data-bs-theme="dark"] .nav-link:hover {
+  color: var(--bs-danger);
+}
+
+.head-title {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.head-title a:hover {
+  color: var(--bs-danger);
+}
+
+[data-bs-theme="dark"] .head-title a:hover {
+  color: #dc3545;
+}
+
+[data-bs-theme="dark"] .head-title a {
+  color: #adb5bd;
+}
+
+.media li a {
+  color: #434546;
+}
+
+.media li a:hover {
+  color: var(--bs-success);
+}
+
+[data-bs-theme="dark"] .media li a {
+  color: #adb5bd;
+}
+
+[data-bs-theme="dark"] .git-logo {
+  color: #adb5bd;
+}
+
+[data-bs-theme="dark"] .media li a:hover {
+  color: var(--bs-warning);
+}
+
+.head-title a {
+  color: #434546;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
+main p {
+  font-size: 1.2rem;
+}

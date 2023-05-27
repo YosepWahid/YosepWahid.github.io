@@ -31,7 +31,7 @@
   </head>
   <body>
     <!-- content -->
-    <div class="container-md" style="height: 100vh">
+    <div class="container-sm" style="height: 100vh">
       <!-- header -->
       <header
         class="d-flex justify-content-center flex-column align-items-center py-3"
@@ -52,7 +52,9 @@
             href="/achievements-skills.html"
             >Achievements & Skills</a
           >
-          <a class="flex-sm-fill text-sm-center nav-link" href="/projects.html"
+          <a
+            class="flex-sm-fill text-sm-center nav-link active"
+            href="/projects.html"
             >projects</a
           >
           <a class="flex-sm-fill text-sm-center nav-link" href="contact.html"
@@ -64,13 +66,10 @@
       </header>
       <!-- header -->
 
-      <main
-        class="my-4 my-sm-2 d-flex justify-content-center align-items-center"
-        style="height: 58vh"
-      >
-        <h3 class="title">
-          <span id="element"></span>
-        </h3>
+      <main class="my-4 my-sm-5 p-2">
+        <h4>Public Project</h4>
+
+        <div class="row" id="result"></div>
       </main>
 
       <footer class="text-center text-muted my-5 p-3">
@@ -87,10 +86,9 @@
     ></script>
     <!-- bootstrap -->
 
-    <!-- typed js -->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="src/js/typing.js"></script>
-    <!-- typed js -->
+    <!-- api github -->
+    <script src="src/js/project.js"></script>
+    <!-- api github -->
 
     <!-- script -->
     <script src="src/js/script.js"></script>
